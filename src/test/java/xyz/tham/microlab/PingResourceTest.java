@@ -14,7 +14,7 @@ class PingResourceTest {
           .when().get("/ping")
           .then()
              .statusCode(200)
-             .body(is("Welcome to Microlab."));
+             .body(is("Welcome to Microlab!"));
     }
 
 }

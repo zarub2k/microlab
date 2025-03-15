@@ -1,9 +1,21 @@
 # microlab
-Experiment microservice architecture with Quarkus
+Microservice experimentation with Quarkus
 
 # General
 - [x] Banner customization
-- [ ] Second task
+
+# Quarkus CLI
+- [ ] quarkus create
+```
+$ quarkus create app xyz.tham:microlab --extension quarkus-rest
+```
+- [ ] quarkus update
+- [ ] quarkus extensions
+```
+$ quarkus extension categories
+$ quarkus extension list
+$ quarkus extension list --installable --category "ai"
+```
 
 # Micro Profile Standard
 ## Jakarta EE Core Profile
