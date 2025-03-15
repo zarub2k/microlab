@@ -1,16 +1,40 @@
 # microlab
 Experiment microservice architecture with Quarkus
 
-# Themes
-## General
-- [x] Custom banner
+# General
+- [x] Banner customization
 - [ ] Second task
 
-## Quarkus CLI
+# Micro Profile Standard
+## Jakarta EE Core Profile
+- Jakarta Annotations
+- Jakarta CDI (CDI Lite)
+- Jakarta Dependency Injection
+- Jakarta Interceptors
+- Jakarta JSON Processing
+- Jakarta JSON Binding
+- Jakarta RESTful Web Services
+
+## Config
 x
 
-## Configurations
+## Health
 x
 
-## REST APIs
+## JWT Authentication
 x
+
+## Fault Tolerence
+x
+
+## REST Client
+x
+
+## Open API
+x
+
+## Telemetry
+x
+
+# References
+- 
