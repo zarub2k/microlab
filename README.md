@@ -3,7 +3,11 @@ Experiment microservice architecture with Quarkus
 
 # Themes
 ## General
-- [] ASCII code change
+- [ ] Custom banner
+- [ ] Second task
+
+## Quarkus CLI
+x
 
 ## Configurations
 x
