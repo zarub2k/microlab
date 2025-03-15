@@ -1,20 +1,20 @@
 package xyz.tham.microlab;
 
-import io.quarkus.test.junit.QuarkusTest;
+import static org.hamcrest.CoreMatchers.is;
 import org.junit.jupiter.api.Test;
 
+import io.quarkus.test.junit.QuarkusTest;
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.CoreMatchers.is;
 
 @QuarkusTest
-class GreetingResourceTest {
+class PingResourceTest {
     @Test
     void testHelloEndpoint() {
         given()
-          .when().get("/hello")
+          .when().get("/ping")
           .then()
              .statusCode(200)
-             .body(is("Hello from Quarkus REST"));
+             .body(is("Welcome to Microlab."));
     }
 
 }
