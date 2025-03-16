@@ -8,7 +8,7 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("/ping")
-public class PingResource {
+public class PingService {
 
     @ConfigProperty(name="greeting")
     private String message;
