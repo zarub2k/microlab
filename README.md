@@ -36,6 +36,16 @@ $ quarkus extension remove "<artifactid>"
 - Jakarta JSON Binding
 - Jakarta RESTful Web Services
 
+## Jakarta RESTful Web Services
+### REST API
+GET / POST / PUT / DELETE
+
+### Graph QL API
+Query / Mutation / Subscription
+
+### gRPC API
+x
+
 ## Config
 Manages the application configuration. Refer https://microprofile.io/specifications/config/ for more information
 ```
