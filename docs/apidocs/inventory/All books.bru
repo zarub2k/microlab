@@ -1,0 +1,21 @@
+meta {
+  name: All books
+  type: graphql
+  seq: 1
+}
+
+post {
+  url: {{MICROLAB_HOST}}/graphql
+  body: graphql
+  auth: none
+}
+
+body:graphql {
+  query {
+    books {
+      id
+      title
+      author
+    }
+  }
+}

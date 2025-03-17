@@ -1,0 +1,24 @@
+meta {
+  name: Create a book
+  type: graphql
+  seq: 2
+}
+
+post {
+  url: {{MICROLAB_HOST}}/graphql
+  body: graphql
+  auth: none
+}
+
+body:graphql {
+  mutation {
+    addBook(book: {
+      id: 1
+      title: "Do Hard Things"
+      author: "Steve Magness"
+    }) {
+      id
+      author
+    }
+  }
+}
